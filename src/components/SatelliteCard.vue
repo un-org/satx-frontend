@@ -1,9 +1,9 @@
 <template>
-    <div class="wrapper">
-        <div class="s-card">
-            <h1>sono il satellite # {{ id }}</h1>
+        <div class="wrapper">
+            <div class="s-card">
+                <h1>sono il satellite # {{ id }}</h1>
+            </div>
         </div>
-    </div>
 </template>
 
 <script>
