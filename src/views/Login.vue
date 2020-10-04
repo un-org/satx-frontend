@@ -1,9 +1,3 @@
-<style>
-body {
-  background-color: #aeb0b5;
-}
-</style>
-
 <template>
     <div class="login">
         <LoginCard />
@@ -11,7 +5,6 @@ body {
 </template>
 
 <script>
-
 import LoginCard from "../components/LoginCard";
 export default {
     components: {
@@ -19,3 +12,9 @@ export default {
     },
 };
 </script>
+
+<style scoped>
+body {
+    background-color: #aeb0b5;
+}
+</style>
